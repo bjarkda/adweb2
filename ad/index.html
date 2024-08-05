@@ -41,8 +41,35 @@
     </nav>
 
     <section class="apres">
-        <img class="imagem" src="/assets/HalteresSeusHabitosLogo.png" alt="logo">
-        <p>faça exercícios e tenha mais saúde e disposição!</p>
+         <form class="formul">
+            <fieldset class="fsPessoal">
+                <legend>Dados Pessoais</legend>
+                <div class="linhaNome">
+                    <label for="nome">Nome:</label>
+                    <input class="inpNome" type="text" id="nome" name="nome">
+                </div>
+                <fieldset class="fsGenero">
+                    <legend>Gênero</legend>
+                    <div>
+                        <label><input type="radio" name="genero" value="masculino">Masculino</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="genero" value="feminino" checked>Feminino</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="genero" value="outro">Outro</label>
+                    </div>
+                </fieldset>
+                <div class="linhaDados">
+                    <label for="telefone">Telefone:</label>
+                    <input class="inpTelef" type="tel" id="telefone" name="telefone">
+                    <label for="celular">Celular:</label>
+                    <input class="inpTelef" type="tel" id="celular" name="celular">
+                    <label for="idade">Idade:</label>
+                    <input class="numDD" type="number" id="idade" name="idade" value="18" min="0">
+                </div>
+            </fieldset>
+        </form>
     </section>
 
 </body>
