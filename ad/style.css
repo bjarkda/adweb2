@@ -53,3 +53,59 @@ section {
     font-family: "Stoke", serif;
 }
 
+.formul {
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin: 0px auto 0px auto;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: 3px solid #202020;
+    font-size: 12px;
+}
+
+.fsPessoal {
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.fsGenero {
+    float: right;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+.fsCartão {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo dos boxes internos */
+.linhaNome {
+    height: 30px;
+    width: 340px;
+    padding-top: 8px;
+}
+
+.linhaDados {
+    height: 130px;
+    width: 340px;
+}
+
+.inpNome {
+    width: 220px;
+}
+
+.inpTelef {
+    width: 90px;
+}
+
+.numDD {
+    width: 35px;
+}
+
+
